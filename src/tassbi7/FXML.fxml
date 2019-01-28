@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="308.0" prefWidth="723.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tassbi7.FXMLController">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="311.0" fitWidth="833.0" layoutX="-32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tawba.jpg" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="t1" editable="false" focusColor="#e19ecc" labelFloat="true" layoutX="309.0" layoutY="112.0" maxWidth="201.0" minWidth="119.0" prefHeight="36.0" prefWidth="134.0" promptText="عدد الأذكار الحالي  :" styleClass="mainFxmlClass" unFocusColor="#e06767d4" />
+      <JFXButton fx:id="b1" cache="true" cacheHint="ROTATE" layoutX="496.0" layoutY="48.0" onAction="#calculate" prefHeight="29.0" prefWidth="284.0" ripplerFill="#914c4cc7" text="سبحان الله و بحمده سبحان الله العظيم" textFill="#d7c4c4" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="b2" layoutX="518.0" layoutY="93.0" nodeOrientation="LEFT_TO_RIGHT" onAction="#calculate" prefHeight="26.0" prefWidth="262.0" text="أستغفر الله و أتوب إليه" textFill="#d7c4c4">
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="b3" layoutX="518.0" layoutY="130.0" onAction="#calculate" prefHeight="26.0" prefWidth="262.0" text="الحمدلله دائما و أبدا" textFill="#d7c4c4">
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="b4" layoutX="517.0" layoutY="167.0" onAction="#calculate" prefHeight="26.0" prefWidth="262.0" text="لا إله إلا الله" textFill="#d7c4c4">
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Line endX="100.0" layoutX="651.0" layoutY="81.0" opacity="0.48" startX="-100.0" stroke="#e06767b2" />
+      <Line endX="100.0" layoutX="654.0" layoutY="118.0" opacity="0.48" startX="-100.0" stroke="#e06767b3" />
+      <Line endX="100.0" layoutX="658.0" layoutY="157.0" opacity="0.48" startX="-100.0" stroke="#e06767b3" />
+      <Line endX="100.0" layoutX="659.0" layoutY="200.0" opacity="0.48" startX="-100.0" stroke="#e06767b3" />
+      <JFXButton fx:id="b5" layoutX="517.0" layoutY="208.0" onAction="#danb" prefHeight="26.0" prefWidth="262.0" text="إقترفت دنبا !" textFill="#d7c4c4">
+         <cursor>
+            <Cursor fx:constant="MOVE" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Line endX="100.0" layoutX="659.0" layoutY="207.0" opacity="0.48" startX="-100.0" stroke="#e06767b3" />
+   </children>
+</AnchorPane>
